@@ -1,0 +1,14 @@
+#define DIFFUSE_COLOR   0u
+#define DIFFUSE_TEXTURE 1u
+
+#define EMISSION_COLOR   0u
+#define EMISSION_TEXTURE 1u
+
+#define SHADE_FLAT          0u
+#define SHADE_LIGHTMAP      1u
+#define SHADE_LIGHTMAP_ONLY 2u
+
+#define LIGHTMAP_OP_CLEAR_CURR  0u
+#define LIGHTMAP_OP_CLEAR_SUM   1u
+#define LIGHTMAP_OP_WRITE_FINAL 2u
+#define LIGHTMAP_OP_FINISH_PASS 3u
